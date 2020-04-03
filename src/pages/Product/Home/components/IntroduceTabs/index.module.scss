@@ -1,0 +1,26 @@
+.introduce_tabs {
+  position: relative;
+  height: 390px;
+  background: #F9FBFF;
+
+  .introduce_tabs_content {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .introduce_card_left_bg {
+    width: 119px;
+    height: 321px;
+    position: absolute;
+    left: 0;
+    top: 44px;
+  }
+
+  .introduce_card_right_bg {
+    width: 110px;
+    height: 256px;
+    position: absolute;
+    top: 32px;
+    right: 0;
+  }
+}

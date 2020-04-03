@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="12px" viewBox="0 0 6 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>AI+箭头</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="立即体验btn" transform="translate(-87.000000, -11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="AI+箭头">
+                <path d="M85.0834851,14.1865667 C84.7948586,13.9365011 84.3747694,13.9886391 84.1451896,14.3030202 C83.9156098,14.6174013 83.9634766,15.0749757 84.2521031,15.3250413 L89.4654563,19.8418829 C89.7051626,20.0495641 90.0438486,20.0529917 90.2870563,19.8501976 L95.7381063,15.3049437 C96.0309487,15.0607627 96.0866127,14.604236 95.8624354,14.2852628 C95.638258,13.9662897 95.2191307,13.9056587 94.9262883,14.1498397 L89.8890168,18.3500723 L85.0834851,14.1865667 Z" transform="translate(90.000000, 17.000000) rotate(-90.000000) translate(-90.000000, -17.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

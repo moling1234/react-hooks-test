@@ -1,0 +1,159 @@
+.login-fixed-bar {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 999;
+  width: 34px;
+  margin-top: 60px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  background-color: #05295c;
+  border-radius: 6px 0 0 6px;
+  transform: translate3d(54px, -121px, 0);
+  opacity: 0;
+  transition: all 0.2s;
+
+  &.show {
+    transform: translate3d(0, -121px, 0);
+    opacity: 1;
+  }
+
+  & > div {
+    position: relative;
+    width: 100%;
+    padding: 12px 5px 12px 7px;
+  }
+  .contact-block {
+    padding: 0;
+    cursor: initial;
+    span {
+      display: block;
+      width: 100%;
+      padding: 12px 8px 12px 12px;
+      font-size: 14px;
+      cursor: default;
+    }
+  }
+  .services,
+  .register,
+  .back-top {
+    cursor: pointer;
+  }
+  .back-top {
+    height: 30px;
+    padding: 0;
+    background: url(./assets/top_icon.svg) center center no-repeat;
+    background-size: 26px;
+    &::before {
+      display: block;
+      width: 12px;
+      margin-left: 11px;
+      border-top: 1px solid rgba(255, 255, 255, 0.24);
+      content: '';
+    }
+  }
+}
+.fixed-bar-tooltip.eui-tooltip {
+  z-index: 99999999999;
+  color: '#111';
+  font-size: '16px';
+  letter-spacing: '1px';
+  .eui-tooltip-inner {
+    padding: 0;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 10px 40px rgba(20, 35, 95, 0.08);
+  }
+  .eui-tooltip-arrow {
+    display: none;
+  }
+  .eui-tooltip-content {
+    margin-right: -7px;
+    border-radius: 6px;
+    .eui-tooltip-inner {
+      border-radius: 6px;
+    }
+  }
+}
+
+.hover-container {
+  width: 220px;
+  background: #fff;
+  border-radius: 4px;
+  .icon {
+    float: left;
+    width: 25px;
+    margin: 12px 12px 12px 18px;
+  }
+  .title {
+    margin: 12px 14px 4px 50px;
+    color: #111;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    img {
+      float: right;
+      width: 6px;
+      height: 10px;
+    }
+  }
+  .sub-title {
+    margin-left: 50px;
+    color: #111;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .description {
+    margin: 4px 10px 12px 50px;
+    color: #666;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .services {
+    height: 66px;
+    padding-top: 10px;
+    cursor: pointer;
+    &:hover {
+      background: #f8f8f8;
+    }
+  }
+  .register {
+    height: 86px;
+    padding-top: 6px;
+    cursor: pointer;
+    &:hover {
+      background: #f8f8f8;
+    }
+  }
+  .services-phone {
+    padding-top: 6px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    cursor: default;
+  }
+}
+
+#MEIQIA-BTN-HOLDER {
+  transform: scale(0.8);
+}
+
+#MEIQIA-IFRAME,
+#MEIQIA-PANEL-HOLDER {
+  bottom: 16px !important;
+  border-radius: 4px 4px 0 0;
+}
+
+#MEIQIA-PANEL-HOLDER {
+  bottom: 16px !important;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    content: '';
+  }
+}

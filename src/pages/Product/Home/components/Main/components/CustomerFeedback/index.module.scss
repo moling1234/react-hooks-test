@@ -1,0 +1,61 @@
+.customer_feedback {
+  background: #F8FBFF;
+
+  .customer_content {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 100px 100px 110px;
+
+    .customer_title {
+      font-size: 36px;
+      font-weight: bold;
+      color: #111111;
+      line-height: 36px;
+      text-align: center;
+
+      .title_after_img {
+        height: 11px;
+        margin-top: 27px;
+      }
+    }
+
+    .company_list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 40px;
+
+      .company_item {
+        padding: 42px 30px 24px 40px;
+        background: #fff;
+        width: 400px;
+        height: 240px;
+        box-shadow:0px 4px 20px 0px rgba(20,35,95,0.06);
+        border-radius:10px;
+        border:1px solid rgba(244,244,244,1);
+        margin-bottom: 20px;
+        position: relative;
+
+        .company_name {
+          font-size: 22px;
+          font-weight: 500;
+          color: #2775FF;
+          margin-bottom: 12px;
+        }
+
+        .company_desc {
+          font-size: 14px;
+          color: #111111;
+          line-height: 22px;
+        }
+
+        .company_logo {
+          height: 30px;
+          position: absolute;
+          bottom: 24px;
+          right: 30px;
+        }
+      }
+    }
+  }
+}

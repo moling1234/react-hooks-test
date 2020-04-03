@@ -1,0 +1,136 @@
+$base-time: 1s / 30; // 30格为1s
+$base-prec: 100% / 30;
+@mixin carouselAnimationFn($name, $duration, $delay) {
+  opacity: 0;
+  animation-name: $name;
+  animation-name: $name;
+  animation-duration: $base-time * $duration;
+  animation-delay: $base-time * $delay;
+  animation-fill-mode: forwards;
+}
+
+.banner_wrapper {
+  height: 440px;
+  background: linear-gradient(122deg,rgba(0,95,255,1) 0%,rgba(0,52,255,1) 100%);
+
+  .banner_content {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+  }
+
+  .banner_left {
+    padding: 158px 0 0 0;
+    white-space: nowrap;
+
+    .title {
+      font-size: 46px;
+      font-weight: 600;
+      color: rgba(255,255,255,1);
+      line-height: 46px;
+      letter-spacing: 6px;
+      text-shadow: 0px 10px 20px rgba(0,58,177,0.3);
+      @include carouselAnimationFn(title, 20, 4);
+    }
+
+    .sub_title {
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(255,255,255,1);
+      line-height: 34px;
+      letter-spacing: 4px;
+      margin-top: 24px;
+      @include carouselAnimationFn(sub-title, 20, 4);
+    }
+
+    .button_group {
+      margin-top: 40px;
+      @include carouselAnimationFn(button-group, 20, 4);
+
+      .button_item {
+        background: #fff;
+        box-shadow: 0 30px 36px 0 rgba(0,24,88,.16);
+        border-radius: 20px;
+        width: 170px;
+        height: 40px;
+        font-size: 14px;
+        color: #004fe9;
+        text-align: center;
+        line-height: 40px;
+        box-sizing: border-box;
+        display: inline-block;
+        font-weight: 700;
+        margin-right: 16px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.94;
+        }
+      }
+    }
+  }
+
+  .banner_right {
+
+    .img1 {
+      width: 750px;
+      height: 374px;
+      @include carouselAnimationFn(right-img, 20, 4);
+    }
+  }
+}
+
+@keyframes title {
+  0% {
+    transform: translate3d(-80px, 0, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sub-title {
+  0% {
+    transform: translate3d(-120px, 0, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes button-group {
+  0% {
+    transform: translate3d(-100px, 0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes right-img {
+  0% {
+    transform: translate3d(200px, 0, 0) scale3d(0.8, 0.8, 1) rotateY(12deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}

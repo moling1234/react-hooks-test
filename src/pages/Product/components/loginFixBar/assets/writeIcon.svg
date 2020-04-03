@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>注册体验icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.5213216%" y1="-18.8680013%" x2="88.8793945%" y2="85.7055664%" id="linearGradient-1">
+            <stop stop-color="#5FD2FF" offset="0%"></stop>
+            <stop stop-color="#2D73FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.1-悬浮_Hover" transform="translate(-1206.000000, -491.000000)" fill-rule="nonzero">
+            <g id="分组-6" transform="translate(1186.000000, 339.000000)">
+                <g id="分组-5">
+                    <g id="注册体验icon" transform="translate(20.000000, 152.000000)">
+                        <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="24" height="24" rx="12"></rect>
+                        <path d="M14.9999952,6.19192017 L16.5906101,7.34756953 C17.0298463,7.66669329 17.1340893,8.27200606 16.8234434,8.69957345 L11.7611762,15.6671866 L8.57994641,13.3558878 L13.6422137,6.38827472 C13.9528595,5.96070734 14.5607591,5.87279641 14.9999952,6.19192017 Z M8.01747228,14.1300671 L11.1987021,16.4413658 L8.21695508,17.9483975 C7.97981382,18.0682532 7.68464344,17.9722161 7.55767358,17.7338926 C7.50793023,17.6405239 7.48966184,17.534444 7.50561047,17.4315753 L8.01747228,14.1300671 Z" id="形状" fill="#FFFFFF"></path>
+                        <rect id="矩形" fill="#FFFFFF" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

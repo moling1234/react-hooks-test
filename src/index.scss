@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Monospaced Number, Chinese Quote, -apple-system, Segoe UI, Roboto,
+      PingFang SC, BlinkMacSystemFont, Hiragino Sans GB, Microsoft YaHei,
+      Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #111;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    height: 30px;
+    background-color: #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    outline: #fff solid 2px;
+    outline-offset: -2px;
+  }
+  
+  /* reset css */
+  body,
+  ul,
+  ol,
+  p,
+  dl,
+  dd,
+  form,
+  textarea,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  fieldset,
+  input {
+    margin: 0;
+  }
+  ul,
+  ol,
+  input,
+  button,
+  td,
+  th,
+  fieldset {
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  a {
+    text-decoration: none;
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  
+  a img,
+  fieldset {
+    border: none 0;
+  }
+  
+  fieldset {
+    legend {
+      display: none;
+    }
+  }
+  
+  a,
+  input,
+  button,
+  textarea {
+    outline: none;
+  }
+  
+  em,
+  i {
+    font-style: normal;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  pre {
+    display: inline;
+    white-space: normal;
+  }
+  
+  input,
+  textarea {
+    font-family: PingFang SC, Helvetica Neue, Helvetica, Arial, Hiragino Sans GB,
+      Microsoft Yahei, Microsoft Sans Serif, sans-serif, '\5b8b\4f53';
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
